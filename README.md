@@ -16,7 +16,7 @@ Funcionalidades
 
 Tecnologias
 - Python
-- 
+  
 Instalação
 pip install -r requirements.txt
 
@@ -28,6 +28,7 @@ python -m pytest
 
 Dependências
 pytest
+flake8
 
 Versão
 1.0.0
