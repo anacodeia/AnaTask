@@ -34,7 +34,7 @@ Como executar
 
 - Testes
 
-python -m pytest
+- python -m pytest
 
 Dependências
 
