@@ -1,3 +1,10 @@
+def adicionar_tarefa(lista, tarefa):
+    if tarefa == "":
+        return False
+    lista.append(tarefa)
+    return True
+
+
 tarefas = []
 
 while True:
@@ -10,11 +17,10 @@ while True:
     if opcao == "1":
         tarefa = input("Digite a tarefa: ")
 
-        if tarefa == "":
-            print("Tarefa inválida!")
-        else:
-            tarefas.append(tarefa)
+        if adicionar_tarefa(tarefas, tarefa):
             print("Tarefa adicionada!")
+        else:
+            print("Tarefa inválida!")
 
     elif opcao == "2":
         print("\nLista de tarefas:")
