@@ -16,6 +16,9 @@ Funcionalidades
 
 Tecnologias
 - Python
+- 
+Instalação
+pip install -r requirements.txt
 
 Como executar
 python src/app.py
