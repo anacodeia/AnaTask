@@ -30,17 +30,17 @@ pip install -r requirements.txt
 
 Como executar
 
-python src/app.py
+- python src/app.py
 
-Testes
+- Testes
 
 python -m pytest
 
 Dependências
 
-pytest
+- pytest
 
-flake8
+- flake8
 
 Versão
 
