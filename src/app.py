@@ -11,5 +11,5 @@ while True:
         if tarefa == "":
             print("Tarefa inválida!")
         else:
-            tarefa.append(tarefa)
+            tarefas.append(tarefa)
             print("Tarefa adicional!")
